@@ -34,6 +34,18 @@ OBJETOS = {
     "envase de yogur": {
         "reciclable": True,
         "tiempo_descomposicion": "30-50 años"
+    },
+    "lamina de acero" : {
+        "reciclable" : True,
+        "tiempo_descomposicion" : "10-30 años"
+    },
+    "ladrillo" : {
+        "reciclable" : True,
+        "tiempo_descomposicion" : "100-650 años"
+    },
+    "servilleta" : {
+        "reciclable" : False,
+        "tiempo_descomposicion" : "1 mes"
     }
 }
 def evaluar_objeto(nombre_objeto):  
